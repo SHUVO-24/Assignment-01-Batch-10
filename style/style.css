@@ -363,6 +363,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 
 }
 .step-1{
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,6 +386,7 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     height: 80px;
 }
 .step-2{
+    gap: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -503,6 +505,33 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     height: 57px;
     border-radius: 8px;
     justify-content: space-evenly;
+}
+.last-footer{
+    width: 1050px;
+    height: 60px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    
+
+   
+
+
+
+}
+.icon-footer{
+
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icons img{
+    margin-left: 10px;
 }
 
     
